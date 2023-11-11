@@ -1,4 +1,7 @@
+/*we can't make single subclass from Multiple abstract classes in java 
+'extends' keyword is used*/
 abstract class Parent{
+    int a=45;//we can add Properties and can change them 
     public Parent(){
         System.out.println("I am parent!");
     }
@@ -45,7 +48,13 @@ public class oops_abstract{
         object of abstract class
         Parent P=new Parent();
         P.greet();
-        Child3 c3=new Child3();*/
+        Child3 c3=new Child3();
+        Parent b=new Parent();
+        System.out.println(b.a);*/
+        Parent b=new Child1();
+        System.out.println(b.a);
+        b.a=454;
+        System.out.println(b.a);
         Child1 c1=new Child1();
         c1.greet();
         c1.wish();
