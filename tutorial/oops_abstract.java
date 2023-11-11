@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 /*we can't make single subclass from Multiple abstract classes in java 
 'extends' keyword is used*/
+=======
+//we can't make subclass from multiple abstract classes
+>>>>>>> b20b789312797f7270700a9e281c0e774c62189d
 abstract class Parent{
     int a=45;//we can add Properties and can change them 
     public Parent(){
