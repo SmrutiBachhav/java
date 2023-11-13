@@ -16,7 +16,7 @@ class subchildInterface implements childInterface{
     public void meth2(){
         System.out.println("meth2");
     }
-    public void meth13(){
+    public void meth3(){
         System.out.println("meth3");
     }
     public void meth4(){
