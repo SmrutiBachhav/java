@@ -6,7 +6,7 @@ interface Camera{
     //private void greet(){
       //  System.out.println("Good Morning!, I am method used in Default Method.");
     //}
-    default void Record4KVideo(){
+    default void Record4KVideo(){ //helps to add new functioonality in existing interfaces can be implement in interface only.
         //greet();
         System.out.println("Recording video in 4k...");
     }
@@ -48,7 +48,7 @@ class SmartPhone extends Phone implements Camera, Wifi{
     String network;
     public void connectToNetwork(){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the network you wan tto choose from the above given list of networks");
+        System.out.println("Enter the network you want to choose from the above given list of networks");
         String nw=sc.nextLine();
         this.nw=network;
         System.out.println("Connecting to Network " + nw+"...");
