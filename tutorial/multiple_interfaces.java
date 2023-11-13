@@ -6,7 +6,7 @@ interface Camera{
     //private void greet(){
       //  System.out.println("Good Morning!, I am method used in Default Method.");
     //}
-    default void Record4KVideo(){
+    default void Record4KVideo(){ //helps to add new functioonality in existing interfaces can be implement in interface only.
         //greet();
         System.out.println("Recording video in 4k...");
     }
