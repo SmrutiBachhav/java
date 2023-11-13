@@ -48,7 +48,7 @@ class SmartPhone extends Phone implements Camera, Wifi{
     String network;
     public void connectToNetwork(){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the network you wan tto choose from the above given list of networks");
+        System.out.println("Enter the network you want to choose from the above given list of networks");
         String nw=sc.nextLine();
         this.nw=network;
         System.out.println("Connecting to Network " + nw+"...");
