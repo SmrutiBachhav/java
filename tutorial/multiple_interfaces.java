@@ -88,6 +88,6 @@ public class multiple_interfaces{
                 sp.CallPicked();
                 break;
         }
-        //sp.Record4KVideo(); 
+        sp.Record4KVideo(); 
     }
 }
