@@ -1,8 +1,8 @@
-import folder.folderl1.folderl2.*;
-class c1 extends que{
+import folder.folderl1.folderl2;
+class c1 extends problem2{
     void problem2(){
         System.out.println(proInt);
-        System.out.println(defInt);
+        //System.out.println(defInt);
     }
 }
 public class problem4{

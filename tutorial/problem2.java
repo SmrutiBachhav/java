@@ -14,7 +14,9 @@ class Hyb_calculator{
         System.out.println("Sum of sina and b is :"+(Math.sin(a)+b));
     }
 }
-public class problem2{
+class problem2{
+    protected int proInt=4;
+    int defInt=11;
     public static void main (String[]args){
         Calculator c=new Calculator(4,6);
         Sc_calculator scc=new Sc_calculator(90,90);
