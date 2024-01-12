@@ -1,6 +1,2 @@
-try{
-                Thread.sleep(560);
-            }
-            catch(InterruptedException e){
-                e.printStackTrace();
-            }
+t1.setPriority(6);
+        // t2.setPriority(9);
