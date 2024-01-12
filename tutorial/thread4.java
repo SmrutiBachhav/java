@@ -5,7 +5,7 @@ class MyThread implements Runnable{
         System.out.println("Setting Thread...");     
     }
 }
-class thread4{
+class Thread4{
     public static void main(String[]args){
         Runnable r=new MyThread();
         Thread t=new Thread(r,"Sam");
